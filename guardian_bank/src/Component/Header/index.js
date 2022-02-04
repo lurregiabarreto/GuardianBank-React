@@ -1,9 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import Header from "./Component/Header";
-import "./index.css";
+import react from "react";
 
-ReactDOM.render(
-<Header title="Lead Collector Login" />,
-  document.getElementById("root")
+const Header = ({ title }) => (
+  <header>
+    <h1 className="text-center"> {title} </h1>
+  </header>
 );
+
+export default Header;
