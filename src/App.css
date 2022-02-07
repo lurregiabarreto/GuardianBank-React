@@ -10,28 +10,36 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(
+      to right,
+      rgb(14, 25, 90, 0.8), rgba(55, 20, 71, 0.8)
+  ), url(https://static.vecteezy.com/ti/vetor-gratis/p1/2554861-dinheiro-negocio-dinheiro-financas-icone-colecao-linha-design-vetor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .App{
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  width: 22rem;
-  height: 25rem;
+  background-color: #48D1CC;
+  opacity: 0.7;
+  border-radius: 50px;
+  color: black;
+  width: 25rem;
+  height: 30rem;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+}
+
+.Content{
+  width: 65%;
 }
 
 header{
   margin-bottom: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
 }
-
-.link{
-  color: white;
-}
-
 
 
 #linkSenha{
@@ -41,10 +49,25 @@ header{
 }
 
 .linkCadastro{
+  text-align: left;
   margin-top: 0.5rem;
+}
+
+.linkLogin{
+  margin-top: 2rem;
+}
+
+.linkSair{
+  margin-top: 2rem;
+  display: block;
+}
+
+#linkVoltarLogin{
+  margin-top: 2rem;
+  display: block;
 }
 
 button {
   margin-top: 0.5rem;
   width: 100%;
-} 
+}

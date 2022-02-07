@@ -51,11 +51,11 @@ const Cadastro = (props) => {
             <Form>
                 <FormGroup>
                     <Label for="email">Email</Label>
-                    <Input type='text' id='email' placeholder='Email' onChange={e => dadosDeCadastro.email = e.target.value}/>
+                    <Input type='text' id='email' placeholder='seunome@dominio.com' onChange={e => dadosDeCadastro.email = e.target.value}/>
                 </FormGroup>
                 <FormGroup>
                 <Label for="password">Senha</Label>
-                    <Input type='password' id='password' placeholder='Senha' onChange={e => dadosDeCadastro.senha = e.target.value}/>
+                    <Input type='password' id='password' placeholder='******' onChange={e => dadosDeCadastro.senha = e.target.value}/>
                 </FormGroup>
                 <Button color='primary' onClick={register}>Cadastre-se</Button>
             </Form>
